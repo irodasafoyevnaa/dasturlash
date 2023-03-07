@@ -1,0 +1,7 @@
+son = int(input("sonni kiriting: "))
+if son  % 3 == 0:
+        print ("fizz")
+if son % 5 == 0:
+        print ("buzz")
+if son % 3 == 0 and input % 5 == 0:
+        print ("fizzbuzz")
